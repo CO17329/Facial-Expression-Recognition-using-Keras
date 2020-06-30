@@ -25,7 +25,7 @@ If you want to use the webcam you can simply change the code in 'camera.py' file
 You need to have installed following softwares and libraries in your machine before running this project.
 
 Python 3<br/>
-Anaconda: It will install ipython notebook and most of the libraries which are needed like seaborn, matplotlib, numpy, PIL.<br/>
+Anaconda: It will install ipython notebook and most of the libraries which are needed like seaborn, matplotlib, numpy.<br/>
 OpenCV<br/>
 Tensorflow<br/>
 Keras<br/>
