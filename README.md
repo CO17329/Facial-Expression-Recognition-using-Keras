@@ -13,6 +13,13 @@ After downloading data from the aforementioned sources you have to structure the
 You can add the path of any video you would like to test in the 'camera.py' file- "self.video = cv2.VideoCapture('Desktop/Project/videos/facial_exp.mkv')"<br/>
 If you want to use the webcam you can simply change the code in 'camera.py' file- "self.video = cv2.VideoCapture(0)"<br/>
 
+# Algorithm
+
+- First, the haar cascade method is used to detect faces in each frame of the webcam feed.<br/>
+- The region of image containing the face is resized to 48x48 and is passed as input to the CNN.<br/>
+- The network outputs a list of softmax scores for the seven classes of emotions.<br/>
+- The emotion with maximum score is displayed on the screen.<br/>
+
 # Prerequisites
 
 You need to have installed following softwares and libraries in your machine before running this project.
